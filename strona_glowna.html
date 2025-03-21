@@ -1,0 +1,212 @@
+<style>
+    .category-container {
+        font-family: Arial, sans-serif;
+        background: #f8f9fa;
+        border-radius: 15px;
+        padding: 20px;
+        max-width: 1400px;
+        width: 95%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        margin: 20px auto;
+    }
+
+    .category-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center; 
+    }
+
+
+    @media (min-width: 1024px) {
+        .category-card {
+            width: calc(100% / 6 - 15px); 
+        }
+    }
+
+    @media (max-width: 1023px) and (min-width: 768px) {
+        .category-card {
+            width: calc(100% / 5 - 15px); 
+        }
+    }
+
+    @media (max-width: 767px) {
+        .category-card {
+            width: calc(100% / 4 - 15px);
+        }
+    }
+
+
+    .category-card {
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        border-left: 4px solid #de982f;
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .category-card:hover {
+        transform: scale(1.05);
+    }
+
+
+    .category-card img {
+        width: 80px;
+        height: auto;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .category-card:hover img {
+        transform: scale(1.1);
+    }
+
+    .category-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px; 
+    }
+
+    .category-card h3 {
+        font-size: 13px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .category-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+</style>
+
+<div class="category-container">
+    <div class="category-grid">
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/pompy-ciepla-488.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Pompy_ciepla.jpg" alt="Pompy ciepła">
+                <div class="category-text"><h3>Pompy ciepła</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/fotowoltaika-1732.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Fotowoltaika.jpg" alt="Fotowoltaika">
+                <div class="category-text"><h3>Fotowoltaika</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/zbiorniki-na-wode-c-w-u-i-c-o-510.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Zbiorniki_do_c.o._i_c.w.u.jpg" alt="Zbiorniki do C.O. i C.W.U.">
+                <div class="category-text"><h3>Zbiorniki do C.O. i C.W.U.</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/kotly-gazowe-kondensacyjne-470.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Kotly_gazowe.jpg" alt="Kotły gazowe">
+                <div class="category-text"><h3>Kotły gazowe</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/kotly-na-paliwa-stale-491.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Kotly_na_paliwa_stale.jpg" alt="Kotły na paliwa stałe">
+                <div class="category-text"><h3>Kotły na paliwa stałe</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/naczynia-wzbiorcze-719.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Naczynia_przeponowe.jpg" alt="Naczynia przeponowe">
+                <div class="category-text"><h3>Naczynia przeponowe</h3></div>
+            </a>
+        </div>
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/kominy-454.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Kominy.jpg" alt="Kominy">
+                <div class="category-text"><h3>Kominy</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/grzejniki-727.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Grzejniki.jpg" alt="Grzejniki">
+                <div class="category-text"><h3>Grzejniki</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/pompy-do-wody-463.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Pompy_cyrkulacyjne_i_obiegowe.jpg" alt="Pompy obiegowe i cyrkulacyjne">
+                <div class="category-text"><h3>Pompy obiegowe i cyrkulacyjne</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/sieci-kanalizacyjne-544.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Sieci_wodno-kanalizacyjne_i_gazowe.jpg" alt="Sieci wodno-kanalizacyjne i gazowe">
+                <div class="category-text"><h3>Sieci wodno-kanalizacyjne i gazowe</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/wentylacja-i-rekuperacja-473.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Rekuperacja.jpg" alt="Rekuperacja i wentylacja">
+                <div class="category-text"><h3>Rekuperacja i wentylacja</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/klimatyzacja-548.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Klimatyzacja.jpg" alt="Klimatyzacja">
+                <div class="category-text"><h3>Klimatyzacja</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/zmiekczacze-wody-519.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Stacje_uzdatniania_wody.jpg" alt="Stacje uzdatniania wody">
+                <div class="category-text"><h3>Stacje uzdatniania wody</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/przydomowe-oczyszczalnie-sciekow-620.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Przydomowe_oczyszczalnie_sciekow.jpg" alt="Przydomowe oczyszczalnie ścieków">
+                <div class="category-text"><h3>Przydomowe oczyszczalnie ścieków</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/ogrzewanie-podlogowe-482.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Ogrzewanie_podlogowe.jpg" alt="Ogrzewanie podłogowe">
+                <div class="category-text"><h3>Ogrzewanie podłogowe</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/ksztaltki-i-rury-pex-483.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Ksztaltki_i_rury_pex.jpg" alt="Kształtki i rury PEX">
+                <div class="category-text"><h3>Kształtki i rury PEX</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/regulatory-i-sterowniki-608.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Regulatory_i_sterowniki.jpg" alt="Regulatory i sterowniki">
+                <div class="category-text"><h3>Regulatory i sterowniki</h3></div>
+            </a>
+        </div>
+        
+        <div class="category-card">
+            <a href="https://instalator24.pl/pl/menu/zawory-465.html">
+                <img src="https://instalator24.pl/data/include/cms/Kategorie/Zawory.jpg" alt="Zawory">
+                <div class="category-text"><h3>Zawory</h3></div>
+            </a>
+        </div>
+        
+    </div>
+</div>

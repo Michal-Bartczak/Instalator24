@@ -1,0 +1,2 @@
+# Instalator24
+Podstrony
